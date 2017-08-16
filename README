@@ -1,0 +1,34 @@
+arcBlocks: C++ standard library extensions and UI Building Blocks for apps and games
+by David Tulga
+
+arcBlocks is a suite of open source libraries designed to help speed up C++ app development
+by providing a wide variety of standard library extensions (arc), along with a set of
+UI building blocks (Blocks). The only dependencies are C++11 and the open-source graphics
+library SDL for the UI functions. See: https://www.libsdl.org/
+
+Some of the primary modules in arc provide:
+
+Automatic memory management/copy-on-write
+Command-line argument parsing
+File/path/directory access
+Threading and syncronization
+2D graphics rendering and user input (using SDL) See: https://www.libsdl.org/
+Audio playback (using SDL_mixer) See: https://www.libsdl.org/projects/SDL_mixer/
+
+And the Blocks suite includes:
+
+Static, dynamic, animated, and expanding visuals
+Multi-frame visuals, buttons
+UI Layouts
+Scene handling
+Sound playback
+Pixel text rendering
+Collision detection
+Scrolling and parallax scrolling
+Procedural level generation
+Blocks manager which handles connections between block events and actions
+
+NOTE: The arcBlocks suite is in beta, and while many parts are tested and functional,
+there are many unimplemented functions and this code is not guaranteed to work in all situations.
+
+See the LICENSE file for the complete legal license for this code.
